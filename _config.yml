@@ -6,10 +6,10 @@ baseurl: ""
 
 # This will show up at the top of index page
 site_heading: >
-    foo <span class="faded">'s blog</span>
+    Hong <span class="faded">'s blog</span>
 
-email: your@email.com
-author: yourname
+email: hm6367@gmail.com
+author: HongHyeMin
 # This description will show up in google search results
 # (for index page) etc.
 description: >
