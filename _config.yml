@@ -56,8 +56,8 @@ paginate_path: "/page/:num"
 tracking_id: UA-69243698-7 # GA Tracking ID
 
 # Social Stuff | open graph and twitter cards
-og_image: "images/accent.png" # This will show in facebook thumbnails
-twitter_image: "http://ankitsultana.com/images/accent.png?1234" # This will show in twitter cards
+# og_image: "images/accent.png" # This will show in facebook thumbnails
+# twitter_image: "http://ankitsultana.com/images/accent.png?1234" # This will show in twitter cards
 
 ####################################
 ####################################
@@ -91,4 +91,4 @@ defaults:
         values:
             layout: "post"
 
-exclude: [vendor] # For travis ci
+# exclude: [vendor] # For travis ci
