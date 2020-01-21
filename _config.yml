@@ -22,12 +22,7 @@ copyright: hmhong
 intro: false         # Tip: Remove the span from site_heading if intro is set to true
 # This will be displayed in your intro
 short_bio: >
-    Welcome! This is <span>accent</span>, a mobile friendly theme for Jekyll. The main feature of this
-    theme is that you can change the accent color. Refer the
-    <a class="underline different-highlight" href="http://ankitsultana.com/accent/documentation.html">
-        Documentation
-    </a>
-    to know how.
+    Welcome! <span>I Developer!</span>
 
 permalink: /:title.html
 
@@ -39,7 +34,7 @@ comments: true
 # Note that about_footer should be true if you want
 # to see author information at the bottom of each post
 about_stub: >
-    Keep this sentence less than 13 words or it won't look good.
+   blog
 
 about_footer: true
 
