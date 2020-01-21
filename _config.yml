@@ -43,8 +43,8 @@ about_stub: >
 
 about_footer: true
 
-twitter_username: AnkitSultana
-github_username: yourgithub
+# twitter_username: 
+github_username: hmhong
 facebook_id: yourusername
 
 favicon: true
