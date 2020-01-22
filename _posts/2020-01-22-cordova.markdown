@@ -6,7 +6,7 @@
 오픈 소스 모바일 개발 프레인워크이며, 하이브리드 어플리케이션을 만들기 위해서 사용됩니다.
 
 * 참고사이트
-[https://cordova.apache.org/docs/ko/latest/guide/overview/index.html](https://cordova.apache.org/docs/ko/latest/guide/overview/index.html)
+  1. [https://cordova.apache.org/docs/ko/latest/guide/overview/index.html](https://cordova.apache.org/docs/ko/latest/guide/overview/index.html)
 
 
 
