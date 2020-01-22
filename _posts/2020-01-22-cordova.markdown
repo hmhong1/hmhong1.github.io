@@ -12,13 +12,18 @@
 
 ### 설치가이드(윈도우)
 
-1.Node.JS 설치 (반드시 **msi버전** 설치할것! 이유는 binary버전은 npm 설치가 되지 않는다)
+1.Node.JS 설치 
+* 반드시 **msi버전** 설치할것! 이유는 binary버전은 npm 설치가 되지 않는다
+
 
 
 2.JAVA SDK (JDK) 설치
 
 
-3.안드로이드 스튜디오 설치 (SDK포함하고, 설치경로도 변경하지않는것이 좋다)
+
+3.안드로이드 스튜디오 설치
+* SDK포함하고, 설치경로도 변경하지않는것이 좋다
+
 
 
 4.Path 설정
@@ -33,16 +38,19 @@
 * 홈 설정은 설치된경를 찾아서 설정해야한다.
 
 
+
 5.코르도바(cordova) 설치
 {% highlight text %}
  > npm install -g cordova
 {% endhighlight %}
 
 
+
 6.앱생성
 {% highlight text %}
  > cordova create hello com.example.hello HelloWorld
 {% endhighlight %}
+
 
 
 7.경로 이동 & 플랫폼 설치 확인
@@ -59,6 +67,7 @@
 {% endhighlight %}
 
 
+
 8.플랫폼 설치 확인
 {% highlight text %}
  > cordova platform ls
@@ -70,10 +79,12 @@
 * 오류 메세지에 따라 \Android Studio\tools\templates\gradle 폴더에[SDK\tools\templates] gradle 과 [Android Studio] gradle을 복사한다.
 
 
+
 9.플랫폼 빌드
 {% highlight text %}
  > cordova build android
 {% endhighlight %}
+
 
 
 10.실행
@@ -95,7 +106,8 @@ cordova run android
   
 * 해당 오류가 발행할경우 안드로이드 스튜디오를 실행하여 SDK 관련 초기 세팅을 해야합니다.
 
-  No CPU/ABI system image available for this target
+  " No CPU/ABI system image available for this target"
+
 
 
 11.릴리즈
@@ -114,5 +126,7 @@ cordova run android
 {% highlight text %}
 > zipalign -v 4 platforms\android\build\outputs\apk\android-release-unsigned.apk carsharp.apk
 {% endhighlight %}
+
+
 
 
