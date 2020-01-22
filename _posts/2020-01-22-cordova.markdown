@@ -28,7 +28,7 @@
  %ANDROID_SDK_HOME%\platform-tools
 {% endhighlight %}
 
- *홈 설정은 설치된경를 찾아서 설정해야한다.
+* 홈 설정은 설치된경를 찾아서 설정해야한다.
 
 5. 코르도바(cordova) 설치
 {% highlight text %}
