@@ -12,13 +12,13 @@
 
 ### 설치가이드(윈도우)
 
-1. Node.JS 설치 (반드시 **msi버전** 설치할것! 이유는 binary버전은 npm 설치가 되지 않는다)
+* Node.JS 설치 (반드시 **msi버전** 설치할것! 이유는 binary버전은 npm 설치가 되지 않는다)
 
-2. JAVA SDK (JDK) 설치
+* JAVA SDK (JDK) 설치
 
-3. 안드로이드 스튜디오 설치 (SDK포함하고, 설치경로도 변경하지않는것이 좋다)
+* 안드로이드 스튜디오 설치 (SDK포함하고, 설치경로도 변경하지않는것이 좋다)
 
-4. Path 설정
+* Path 설정
 {% highlight text %}
  %JAVA_HOME%
  %JAVA_HOME%\bin
@@ -27,21 +27,19 @@
  %ANDROID_SDK_HOME%\tools
  %ANDROID_SDK_HOME%\platform-tools
 {% endhighlight %}
+홈 설정은 설치된경를 찾아서 설정해야한다.
 
-* 홈 설정은 설치된경를 찾아서 설정해야한다.
-
-5. 코르도바(cordova) 설치
+* 코르도바(cordova) 설치
 {% highlight text %}
  > npm install -g cordova
 {% endhighlight %}
 
-6. 앱생성
+* 앱생성
 {% highlight text %}
  > cordova create hello com.example.hello HelloWorld
 {% endhighlight %}
 
-
-7. 경로 이동 & 플랫폼 설치 확인
+* 경로 이동 & 플랫폼 설치 확인
 {% highlight text %}
  > cd hello
 {% endhighlight %}
@@ -54,9 +52,7 @@
  > cordova platform add android --save
 {% endhighlight %}
 
-
-
-8. 플랫폼 설치 확인
+* 플랫폼 설치 확인
 {% highlight text %}
  > cordova platform ls
 {% endhighlight %}
@@ -64,15 +60,14 @@
 {% highlight text %}
  > cordova requirements
 {% endhighlight %}
+오류 메세지에 따라 \Android Studio\tools\templates\gradle 폴더에[SDK\tools\templates] gradle 과 [Android Studio] gradle을 복사한다.
 
-* 오류 메세지에 따라 \Android Studio\tools\templates\gradle 폴더에[SDK\tools\templates] gradle 과 [Android Studio] gradle을 복사
-
-9. 플랫폼 빌드
+* 플랫폼 빌드
 {% highlight text %}
  > cordova build android
 {% endhighlight %}
 
-10. 실행
+* 실행
 {% highlight text %}
 cordova emulate android
 {% endhighlight %}
@@ -81,15 +76,15 @@ cordova emulate android
 cordova run android
 {% endhighlight %}
 
-* 아래의 오류가 발생했을 경우 에뮬레이터가 없다는 오류입니다.
-   "Error: No emulator images (avds) found."
+   * 아래의 오류가 발생했을 경우 에뮬레이터가 없다는 오류입니다.
+      "Error: No emulator images (avds) found."
 
-* 오류 메시지 대로 실행합니다. 
-  "C:\User\Local\Android\sdk\tools\android.bat"
-* No CPU/ABI system image available for this target ->
- (오류가 발행할경우 안드로이드 스튜디오를 실행하여 SDK 관련 초기 세팅을 해줘야합니다.)
+   * 오류 메시지 대로 실행합니다. 
+     "C:\User\Local\Android\sdk\tools\android.bat"
+   * No CPU/ABI system image available for this target ->
+     (오류가 발행할경우 안드로이드 스튜디오를 실행하여 SDK 관련 초기 세팅을 해줘야합니다.)
 
-11. 릴리즈
+* 릴리즈
 {% highlight text %}
 > cordova build android --release
 {% endhighlight %}
