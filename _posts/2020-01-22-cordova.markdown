@@ -2,14 +2,15 @@
 ---
 
 
-###cordova
+### cordova
 오픈 소스 모바일 개발 프레인워크이며, 하이브리드 어플리케이션을 만들기 위해서 사용됩니다.
 
 참고사이트
 * [https://cordova.apache.org/docs/ko/latest/guide/overview/index.html(https://cordova.apache.org/docs/ko/latest/guide/overview/index.html)
 
 
-###설치가이드(윈도우)
+
+### 설치가이드(윈도우)
 
 1. Node.JS 설치 (반드시 **msi버전** 설치할것! 이유는 binary버전은 npm 설치가 되지 않는다)
 
@@ -47,11 +48,11 @@
 
 {% highlight text %}
  > cd hello
- {% endhighlight %}
+{% endhighlight %}
 
 {% highlight text %}
  > cordova platform add ios --save
- {% endhighlight %}
+{% endhighlight %}
 
 {% highlight text %}
  > cordova platform add android --save
